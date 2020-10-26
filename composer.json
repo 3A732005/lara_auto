@@ -7,7 +7,9 @@
             "email": "ab53014698@yahoo.com.tw"
         }
     ],
-    "require": {},
+    "require": {
+        "monolog/monolog": "^2.1"
+    },
     "autoload": {
         "psr-4": {
             "Demo\\": "./src/Demo"
